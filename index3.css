@@ -1,0 +1,91 @@
+*{
+    align-items: center;
+    padding: 5rem auto;
+  
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainer{
+    background: rgb(177, 231, 226);
+
+    align-items: center;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    justify-items: center;
+    justify-content: center;
+   
+    border-radius: 20px;
+    box-shadow: ;
+box-shadow: 0 2px 4px 0;
+}
+
+.logo-pic{
+    border: 1px solid white;
+    margin: 1.5rem auto;
+    width: 90px;  
+    border-radius: 50%;
+    box-shadow: 0 4px 9px 0 turquoise,
+    2px 0 2px 0 ;
+}
+
+.text1{
+    margin: 1rem auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.user-holder{
+    background: white;
+    margin: 1rem auto;
+    padding:  0 1rem  0 1rem;
+    height: 2rem;
+    align-content: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 9px 0 turquoise,
+    2px 0 6px 3px  ;
+}
+
+.pass-holder{
+    background: white;
+    margin: 1rem auto;
+    box-shadow: 0 2px 5px 0;
+    padding:  0 1rem  0 1rem;
+    height: 2rem;
+    align-items: center;
+    border-radius: 50px;
+}
+
+input{
+    border: none;
+    align-items: center;
+    height: 1.8rem;
+}
+
+button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    background: turquoise;
+    margin: 1rem auto;
+    box-shadow: 0 2px 5px 0;
+    padding:  0 1rem  0 1rem;
+    13p
+    height: 2rem;
+    align-items: center;
+    border-radius: 50px;
+    width: 70%;
+}
+
+.sign{
+    width: 70%;
+ font-size: 15px;
+ margin: 1.5rem auto;
+}
+
+a{
+    text-decoration: none;
+    ma
+}

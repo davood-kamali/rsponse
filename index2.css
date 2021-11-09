@@ -1,0 +1,18 @@
+.line{
+    background: rgb(224, 146, 159);
+    color: white;
+}
+
+@media (max-width: 480px){
+    .line{
+        background: red;
+        color: black;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 720px){
+    .line{
+        background: green;
+        color: white;
+    }
+}

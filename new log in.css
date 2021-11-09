@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width:90px;
+    border-radius: 50%;
+    margin-top: 0;
+    box-shadow: 4px 4px 7px rgb(36, 120, 153),
+    -4px -4px 7px rgb(172, 197, 207);
+
+}
+
+
+@media (min-width:768px){
+body{
+    border: red 1 px solid;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.div-res{
+    visibility: collapse;
+}
+}
+
+@media ( max-width:767px){
+    body{
+        background: rgb(235, 126, 126);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .main-div{
+        visibility: collapse;
+    } 
+    .div-res{
+        visibility: visible;
+    }
+
+
+}
+
+.div-res{
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    
+    
+
+}
+
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 231, 240);
+    border-radius: 15px;
+    width: 300px;
+    height: 650px;
+    box-shadow: 4px 4px 7px rgb(36, 120, 153),
+    -4px -4px 7px rgb(172, 197, 207);
+}
+
+.description{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+   
+    padding: 0;
+    
+}
+
+.input-a , .input-b{
+    padding: 10px;
+    box-shadow: 4px 4px 7px rgb(36, 120, 153),
+    -4px -4px 7px rgb(172, 197, 207);
+    border-radius: 50px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+svg{
+    width: 30px;
+}
+
+input{
+    text-indent: 15px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 8%;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(245, 245, 248);
+    cursor: pointer;
+    background: rgb(6, 6, 143);
+    margin: 15px;
+    box-shadow: 4px 4px 7px rgb(18, 91, 119),
+    -4px -4px 7px rgb(97, 190, 230);
+}
+
+button:hover{
+    background: rgb(113, 165, 60);
+}
+
+.sign{
+    margin-top: 25px;
+    font-size: 19px;
+    color: rgb(144, 144, 235);
+
+}
+
+a{
+    text-decoration: none;
+}
